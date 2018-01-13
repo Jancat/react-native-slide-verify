@@ -1,0 +1,46 @@
+{
+  "name": "react-native-slide-verify",
+  "version": "0.0.1",
+  "description": "A pure JavaScript <SlideVerify> component for react-native",
+  "main": "lib/SlideVerify/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "homepage": "https://github.com/Jancat/react-native-slide-verify",
+  "repository": {
+    "url": "https://github.com/Jancat/react-native-slide-verify.git",
+    "type": "git"
+  },
+  "bugs": "https://github.com/Jancat/react-native-slide-verify/issues",
+  "author": "Jancat <510675621@qq.com> (https://github.com/Jancat)",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "react-native",
+    "slide verify",
+    "puzzle",
+    "ios",
+    "android"
+  ],
+  "scripts": {
+    "clean": "rimraf lib",
+    "start": "node_modules/react-native/packager/packager.sh",
+    "build": "babel src --out-dir lib && mv src/images lib/",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1",
+    "react": "^16.2.0",
+    "react-native": "^0.52.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react-native-cached-image": "^1.4.3",
+    "react-native-vector-icons": "^4.5.0"
+  }
+}
