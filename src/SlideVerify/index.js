@@ -20,8 +20,8 @@ import styles from './styles'
 
 // local puzzle
 const defaultPuzzle = {
-  puzzle: require('./puzzle.jpg'),
-  puzzlePiece: require('./puzzlePiece.png'),
+  puzzle: require('../images/puzzle.jpg'),
+  puzzlePiece: require('../images/puzzlePiece.png'),
   pieceOffsetX: 79,
   allowableOffsetError: 3
 }
