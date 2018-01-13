@@ -36,7 +36,7 @@ render() {
         puzzlePiece={require('path/to/image')}
         slideVerify={offset => { console.log(offset); return Promise.resolve() }}
         showRefresh
-        refresh={() => alert('refresh)}
+        refresh={() => alert('refresh')}
         slideTips={I18n.t('slideTips')}
       >
     </View>
