@@ -1,6 +1,6 @@
 {
   "name": "react-native-slide-verify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A pure JavaScript <SlideVerify> component for react-native",
   "main": "lib/SlideVerify/index.js",
   "files": [
@@ -26,7 +26,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "start": "node_modules/react-native/packager/packager.sh",
-    "build": "babel src --out-dir lib && mv src/images lib/",
+    "build": "babel src --out-dir lib && cp -r src/images lib",
     "prepublish": "npm run clean && npm run build"
   },
   "devDependencies": {
