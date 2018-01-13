@@ -6,6 +6,7 @@
 
 A pure JavaScript `<SlideVerify>` component for react-native. Drag the slider to fill the puzzle for verifying normal operation.
 
+<img src="https://github.com/Jancat/react-native-slide-verify/blob/master/Screenshots/sample.gif?raw=true">
 
 ## Installation
 ```shell
@@ -55,6 +56,7 @@ render() {
 
 
 **use specified verify images**
+
 | Property | Type | Description |
 |----------|------|-------------|
 | `imageSize` | object (`{puzzleWidth: number(default 300), puzzleHeight: number(default 150), puzzlePieceWidth: number(default 50)}`) | optional. custom image diplay size, related to slide offset (`puzzleWidth` decides the container width) |
@@ -66,6 +68,7 @@ render() {
 
 
 **common props**
+
 | Property | Type | Description |
 |----------|------|-------------|
 | `displayType` | string (default `'triggered'`) | puzzle image display type. enum(`'triggered'`, `'embedded'`) |
